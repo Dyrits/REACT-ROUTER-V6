@@ -22,10 +22,18 @@ const routes = [
       { path: "about", element: <About /> },
       { path: "sign-up", element: <SignUp /> },
       { path: "articles", element: <Articles /> },
-      { path: "articles/:slug", element: <Article /> },
-      { path: "categories", element: <Categories /> },
-      { path: "categories/:slug", element: <Category /> },
-      { path: "profile", element: <Profile /> }
+      { path: "articles/:title", element: <Article /> },
+      { path: "authors/:name", element: <Author /> },
+      {
+        path: "categories", element: <Categories />, children: [
+          { path: ":name", element: <Category /> }
+        ]
+      },
+      {
+        path: "profile", element: <Profile />, children: [
+          { path: "edit", element: <EditProfileForm /> }
+        ]
+      }
     ]
   }
 ];
