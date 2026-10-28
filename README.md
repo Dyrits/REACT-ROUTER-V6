@@ -1,19 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# React Router V6
 
-## Available Scripts
+A React and Redux Toolkit application using React Router v6.
 
-In the project directory, you can run:
+## About The Project
 
-### `npm start`
+A React application (named `tech-news` in `package.json`) built on the Redux Toolkit template, using React Router v6 for routing and `react-markdown` for rendering content.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- React (Create React App)
+- Redux Toolkit / React Redux
+- React Router v6
+- react-markdown
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install the dependencies with `npm install`, then start the development server with `npm start` and open http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+No license file is present in this repository.
+
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
